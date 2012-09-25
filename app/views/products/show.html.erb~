@@ -17,7 +17,7 @@
 
 <p>
   <b>Price:</b>
-  <%= "$%.2f" % @product.price %>
+  <%= @product.price %>
 </p>
 
 
